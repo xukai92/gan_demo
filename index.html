@@ -1,0 +1,17 @@
+<script src="https://cs.stanford.edu/people/karpathy/gan/d3.v3.min.js" charset="utf-8"></script>
+<script src="./gan.js"></script>
+
+<body onload="start()">
+<h1>Generative Adversarial Networks</h1>
+<div id="vis">
+  <svg width="400" height="400" id="svgvis">
+  </svg>
+</div>
+<div id="controls">
+  <button type="button" onclick="reset()" class="but">Reset</button>
+  <button type="button" onclick="toggled()" class="but">Toggle 1D/2D</button>
+  <button type="button" onclick="lrup()" class="but">Increase learning rate</button>
+  <button type="button" onclick="lrdown()" class="but">Decrease learning rate</button>
+</div>
+</body>
+
